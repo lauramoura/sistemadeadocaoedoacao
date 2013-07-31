@@ -4,24 +4,28 @@
         <title>Abrigo de Animais</title>
         <style type ="text/css">
             body {
-                    margin:0;
-                    padding:0;
-                 }
+                           margin:0;
+                           padding:0;
+                        }
              div.cachorro1{
                            width: 279px;
-                           height: 180px;  
-                           background-color: black;
+                           height: 180px; 
+                           margin-top: 50px;
+                          
                         }
                         
              div.cachorro2{
                            width: 280px;
                            height: 180px;
                            margin-top: 50px;
+                           
                         }
             div.gato1{    
                            
                            width: 280px;
-                           height: 180px; 
+                           height: 180px;
+                           margin-top: 50px;
+                         
                          
                         }
             div.gato2{    
@@ -29,6 +33,7 @@
                            width: 280px;
                            height: 180px;
                            margin-top: 50px;
+                         
                         }
             div.principal{
                            width: 900px;
@@ -38,13 +43,54 @@
                            text-align: left;
                            background-color: FF9966;
                            height: auto;
-                        }             
-                               
+                        } 
+            div.fora{
+                           background-color: 99FF99;
+                           
+                            
+                        }            
+            
+            #menu ul {
+            padding:0px;
+            margin:0px;
+            background-color:#EDEDED;
+            list-style:none;
+            width: 900px;
+                        }
+
+            #menu ul li { 
+            display: inline;
+                    
+                        }
+
+            #menu ul li a {
+            padding: 2px 10px;
+            display: inline-block;
+            background-color:#EDEDED;
+            color: #333;
+            text-decoration: none;
+            border-bottom:3px solid #EDEDED;
+                        }
+
+            #menu ul li a:hover {
+            background-color:#D6D6D6;
+            color: #6D6D6D;
+            border-bottom:3px solid #EA0000;
+                        }                   
   
         </style>
      </head>
+     <div class="fora">
      <body>
         <div class="principal">
+            <div id="menu">
+         <ul>
+		<li><a href="#Inicio">Inicio</a></li>
+		<li><a href="#Adote">Adote</a></li>
+		<li><a href="#Fotos">Fotos</a></li>
+		<li><a href="#Fale-conosco">Fale Conosco</a></li>
+        </ul>
+     </div>
         <center><h1>Quer adotar um desses anjinhos?</h1></center>
         <h2>cães:</h2>
         <h3>Deseja escolher adotar um filhote ou um adulto? Se sim, clique na foto!</h3>
@@ -70,6 +116,6 @@
         <a href="CadastroDoacao">Preencha o Formulário de Doação.</a>
         </div>
      </body>
-        
+     </div>
 </html>
         
