@@ -40,6 +40,7 @@
             clear: left;
             
             }
+            
         </style>
     </head>
     
@@ -50,9 +51,7 @@
                    
                     <legend>Dados Pessoais</legend>
                     
-                    <label for="nome">Nome:</label>
-                    <input type="text" name="nome" size=40><br/>
-                    
+                    <label for="nome">Nome:</label><input type="text" name="nome" size=40><br/>
                     <label for="sobrenome">Sobrenome:</label><input type="text" name="sobrenome" size=40><br/>
                     <label for="rg">RG:</label><input type="text" name="rg" size=40><br/>
                     <label for="tel">Telefone:</label><input type="text" name="contato" size=40><br/>
@@ -70,5 +69,6 @@
                     
                 </fieldset>             
        </body>
+       
  </html>
              
