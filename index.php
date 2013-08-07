@@ -1,4 +1,6 @@
+<!doctotype html>
 <html>
+    Laura Moura
     <head> 
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>Abrigo de Animais</title>

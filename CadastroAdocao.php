@@ -57,7 +57,7 @@
                     <label for="tel">Telefone:</label><input type="text" name="contato" size=40><br/>
                     <label for="email">E-mail:</label><input type="text" name="email" size=40><br/>
                     <input type="checkbox" name="receberemail">Desejo receber outras informações por email.
-                </fieldset> 
+                </fieldset> <br/>
                             
                 <fieldset>
                     <legend>Dados do Animal</legend>

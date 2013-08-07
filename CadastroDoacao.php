@@ -56,22 +56,25 @@
                     <label for="tel">Telefone:</label><input type="text" name="contato" size=40><br/>
                     <label for="email">E-mail:</label><input type="text" name="email" size=40></br>
                     <input type="checkbox" name="receberemail">Desejo receber outras informações por email.
-                </fieldset> 
+                </fieldset>  <br/>
                 <fieldset>
                     <legend>Dados do Animal</legend>
                      O animal é filhote ou Adulto? <select name=""> 
                         <option>Filhote</option> 
                         <option>Adulto</option>   
-                        </select> <br/>
+                        </select> <br/> <br/>
+                        
                      Qual o estado de Saúde do Animal? <select name=""> 
                         <option>Bom</option> 
                         <option>Regular</option>
                         <option>Péssimo</option> 
-                        </select> <br/>
+                        </select> <br/><br/>
+                        
                      Sexo do Animal? <select name=""> 
                         <option>Macho</option> 
                         <option>Femea</option>   
-                        </select> <br/>
+                        </select> <br/> <br/>
+                        
                       <label for="raça">Raça:</label><input type="text" name="raça" size="40"><br/>
                       <label for="cor">Cor:</label><input type="text" name="cor" size="40"><br/>
                      Comentários Adicionais<textarea rols ="3" cols ="50"></textarea>
