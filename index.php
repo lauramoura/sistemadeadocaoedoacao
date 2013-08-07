@@ -4,8 +4,8 @@
         <title>Abrigo de Animais</title>
         <style type ="text/css">
             body {
-                           margin:0;
-                           padding:0;
+                background-image: url("patinha.jpg");   
+                
                         }
              div.cachorro1{
                            width: 279px;
@@ -43,12 +43,7 @@
                            text-align: left;
                            background-color: FF9966;
                            height: auto;
-                        } 
-            div.fora{
-                           background-color: 99FF99;
-                           
-                            
-                        }            
+                        }             
             
             #menu ul {
             padding:0px;
@@ -80,7 +75,7 @@
   
         </style>
      </head>
-     <div class="fora">
+     
      <body>
         <div class="principal">
             <div id="menu">
@@ -116,6 +111,6 @@
         <a href="CadastroDoacao">Preencha o Formulário de Doação.</a>
         </div>
      </body>
-     </div>
+     
 </html>
         

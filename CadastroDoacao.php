@@ -1,7 +1,11 @@
 <html>
-    <head> <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <head> 
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title>Cadastro de Usuário</title>
         <style type ="text/css">
+            body{
+                background-image: url("patinha.jpg");
+            }
             form{
                     border-style: solid;
                     border-width: 5px;
@@ -72,3 +76,6 @@
                       <label for="cor">Cor:</label><input type="text" name="cor" size="40"><br/>
                      Comentários Adicionais<textarea rols ="3" cols ="50"></textarea>
                 </fieldset>
+          </form>
+    </body>
+</html>

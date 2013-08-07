@@ -3,10 +3,10 @@
         <title>Cadastro de Usuário</title>
         <style type ="text/css">
             body{
-                background-image: url("patinha.jpg");
-                
+                background-image: url("patinha.jpg");   
                 
             }
+            
             form{
                     border-style: solid;
                     border-width: 5px;
@@ -67,7 +67,8 @@
                         </select> <br>
                     Comentários Adicionais<textarea rols ="3" cols ="50"> </textarea>
                     
-                </fieldset>             
+                </fieldset>   
+              </form>             
        </body>
        
  </html>
