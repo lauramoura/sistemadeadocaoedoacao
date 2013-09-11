@@ -10,7 +10,7 @@
                 
                         }
              div.cachorro1{
-                           width: 279px;
+                           width: 280px;
                            height: 180px; 
                            margin-top: 50px;
                           
@@ -93,7 +93,7 @@
         <h3>Deseja escolher adotar um filhote ou um adulto? Se sim, clique na foto!</h3>
         
         <div class ="cachorro1"> 
-            <a href="CadastroAdocao.php"><img border="0" src="BBdog.jpg"></a>  
+            <a href="CadastroAdocao.php"><img border="0" src="BBdog.jpg"></a> 
         </div>
         
         <div class ="cachorro2">
