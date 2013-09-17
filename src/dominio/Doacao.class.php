@@ -11,8 +11,9 @@
  * @author 20112144110244
  */
 class Doacao {
-    public $doador;
-    public $animal;
+    private $doador;
+    private $animal;
+    
     function __construct($doador, $animal) {
         $this->doador = $doador;
         $this->animal = $animal;

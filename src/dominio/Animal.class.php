@@ -11,11 +11,11 @@
  * @author 20112144110244
  */
 class Animal {
-   public $filhote;
-   public $sexo;
-   public $raça;
-   public $cor;
-   public $codigo;
+   private $filhote;
+   private $sexo;
+   private $raça;
+   private $cor;
+   private $codigo;
    
    
    function __construct($filhote, $sexo, $raça, $cor, $codigo) {

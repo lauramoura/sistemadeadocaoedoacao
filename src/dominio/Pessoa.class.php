@@ -11,11 +11,11 @@
  * @author 20112144110244
  */
 class Pessoa {
-    public $nome;
-    public $sobrenome;
-    public $rg;
-    public $telefone;
-    public $email;
+    private $nome;
+    private $sobrenome;
+    private $rg;
+    private $telefone;
+    private $email;
     
     function __construct($nome, $sobrenome, $rg, $telefone, $email) {
         $this->nome = $nome;
